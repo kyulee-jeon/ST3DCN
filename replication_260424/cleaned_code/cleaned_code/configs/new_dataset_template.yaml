@@ -1,0 +1,32 @@
+# Template for adding a new TCIA (or other DICOM) cohort.
+# Copy to `<your_dataset>.yaml`, fill in, and implement a matching
+# DatasetAdapter subclass in pipeline/dataset_adapter.py (if the data layout
+# differs from CRLM or HCC-TACE-Seg templates).
+
+dataset: my_new_dataset
+label: My New Dataset (HCC+ or HCC−)
+ground_truth_positive: true           # true if all patients are HCC (sens path), false if HCC− (spec path)
+
+# Data paths
+dicom_root: /path/to/dicom/root       # each series: <dicom_root>/<series_uid>/*.dcm
+manifest_csv: /path/to/manifest.csv   # or manifest_json; must contain PatientID, Modality, SeriesInstanceUID, StudyInstanceUID
+nbia_digest_xlsx: null                 # optional: external NBIA digest for Manufacturer/ModelName fill-in
+clinical_xlsx: null
+
+# SEG segment layout — REQUIRED
+tumor_segments: []                      # e.g., [2] or [5,6,7,8,9]; empty lesions will be skipped
+aorta_segment: null                     # integer if SEG contains aorta (for arterial/portal discrimination)
+portal_vein_segment: null               # integer if SEG contains portal vein (for phase sanity)
+
+# Cohort structure
+has_baseline_study: false                # true if patients have longitudinal studies and you must pick pre-treatment
+multi_acq_per_series: false              # true if a single CT series bundles multiple phases (triphasic); portal is picked via aorta cue
+
+# Thresholds
+min_lesion_voxels: 50
+portal_vein_min_hu: 120.0                # phase sanity threshold
+
+# Model inputs — keep defaults unless replicating a different model
+crop_size: 70
+hu_window_low: -160
+hu_window_high: 240

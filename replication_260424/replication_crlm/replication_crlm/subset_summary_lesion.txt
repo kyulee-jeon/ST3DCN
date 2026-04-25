@@ -1,0 +1,39 @@
+=== CRLM lesion-level subset SPECIFICITY (ST3DCN) ===
+Threshold=0.8    (all CRLM patients HCC-negative; spec = TN/n)
+Excluded: SliceThickness (protocol ≤1.25mm vs CRLM 2.5-7.5mm), AgentSequence / ContrastPhase / AcquisitionType / InjectionDelay.
+
+Total lesions: 464  from 197 patients
+
+
+═════════ STRICT (space-normalized model name only) ═════════
+
+--- Subset specificities (lesion = unit) ---
+[pu                                    ] n= 464  TN= 368  FP=  96  spec=0.7931  mean=0.3202  med=0.0711  Wilson95%=(0.7539, 0.8275)
+[pc  (ST3DCN-14, -thick)               ] n=   0
+[pce (ST3DCN∩essential, -thick)        ] n=   0
+
+--- patient counts: pc=0/197,  pce=0/197 ---
+
+
+═════════ MEDIUM (+10% tube-current tolerance) ═════════
+
+--- Subset specificities (lesion = unit) ---
+[pu                                    ] n= 464  TN= 368  FP=  96  spec=0.7931  mean=0.3202  med=0.0711  Wilson95%=(0.7539, 0.8275)
+[pc  (ST3DCN-14, -thick)               ] n=   0
+[pce (ST3DCN∩essential, -thick)        ] n=   0
+
+--- patient counts: pc=0/197,  pce=0/197 ---
+
+
+═════════ RELAXED (+MSKCC agent brand-stem match) ═════════
+
+--- Subset specificities (lesion = unit) ---
+[pu                                    ] n= 464  TN= 368  FP=  96  spec=0.7931  mean=0.3202  med=0.0711  Wilson95%=(0.7539, 0.8275)
+[pc  (ST3DCN-14, -thick)               ] n=  38  TN=  30  FP=   8  spec=0.7895  mean=0.3303  med=0.0565  Wilson95%=(0.6365, 0.8893)
+[pce (ST3DCN∩essential, -thick)        ] n=  38  TN=  30  FP=   8  spec=0.7895  mean=0.3303  med=0.0565  Wilson95%=(0.6365, 0.8893)
+
+--- patient counts: pc=15/197,  pce=15/197 ---
+--- pc protocol assignments ---
+  P08: 15 patients, 38 lesions
+--- pce protocol assignments ---
+  P08: 15 patients, 38 lesions

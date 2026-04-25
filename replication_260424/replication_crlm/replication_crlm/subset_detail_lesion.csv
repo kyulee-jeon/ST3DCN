@@ -1,0 +1,10 @@
+subset,n,tn,fp,spec,mean_prob,median_prob,ci_lo,ci_hi,variant
+pu,464,368.0,96.0,0.7931034482758621,0.3201925474137931,0.07109750000000001,0.7539109210474719,0.8274824394403515,STRICT (space-normalized model name only)
+"pc  (ST3DCN-14, -thick)",0,,,,,,,,STRICT (space-normalized model name only)
+"pce (ST3DCN∩essential, -thick)",0,,,,,,,,STRICT (space-normalized model name only)
+pu,464,368.0,96.0,0.7931034482758621,0.3201925474137931,0.07109750000000001,0.7539109210474719,0.8274824394403515,MEDIUM (+10% tube-current tolerance)
+"pc  (ST3DCN-14, -thick)",0,,,,,,,,MEDIUM (+10% tube-current tolerance)
+"pce (ST3DCN∩essential, -thick)",0,,,,,,,,MEDIUM (+10% tube-current tolerance)
+pu,464,368.0,96.0,0.7931034482758621,0.3201925474137931,0.07109750000000001,0.7539109210474719,0.8274824394403515,RELAXED (+MSKCC agent brand-stem match)
+"pc  (ST3DCN-14, -thick)",38,30.0,8.0,0.7894736842105263,0.33030986842105264,0.056479,0.6365391162355784,0.8892533964790407,RELAXED (+MSKCC agent brand-stem match)
+"pce (ST3DCN∩essential, -thick)",38,30.0,8.0,0.7894736842105263,0.33030986842105264,0.056479,0.6365391162355784,0.8892533964790407,RELAXED (+MSKCC agent brand-stem match)

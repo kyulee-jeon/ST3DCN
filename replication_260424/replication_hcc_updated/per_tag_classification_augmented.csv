@@ -1,0 +1,27 @@
+tag,hex,class,mentioned_in_paper,derived_applied,fill_rate,n_unique_bins,n_testable_bins,status,kw_H,kw_p,mean_min,mean_max,kw_p_fdr,significant_fdr
+KVP,180060,Intensity/exposure,True,,1.0,3,3,testable,15.82845030284841,0.0003655069911133716,0.7567941,0.8847382807017543,0.0020886657941693617,True
+XRayTubeCurrent,181151,Intensity/exposure,True,,0.9931506849315068,5,4,testable,1.6491131483639947,0.6483057148484699,0.7980616043956044,0.9239335,0.6483057148484699,False
+ConvolutionKernel,181210,Intensity/exposure,False,,0.9931506849315068,3,1,insufficient,,,0.8315537000000001,0.8315537000000001,,False
+ContrastBolusAgent,180010,Intensity/exposure,True,,0.0136986301369863,1,0,fully_missing,,,,,,False
+CTDIvol,189345,Intensity/exposure,False,,0.00684931506849315,1,0,fully_missing,,,,,,False
+ContrastFlowRate,181046,Intensity/exposure,True,,0.0,0,0,fully_missing,,,,,,False
+Exposure_uAs,181153,Intensity/exposure,False,substituted from Exposure_uAs_derived (direct fill 0/146),0.9863013698630136,5,4,testable,17.88675544044588,0.00046414795425985813,0.7507023571428572,0.9127810238095239,0.0020886657941693617,True
+RevolutionTime,189305,Intensity/exposure,False,,0.5273972602739726,1,1,invariant,,,0.8510445714285715,0.8510445714285715,,False
+ReconstructionAlgorithm,189315,Intensity/exposure,False,,0.0,0,0,fully_missing,,,,,,False
+ContrastBolusAgentPhase,189344,Intensity/exposure,True,,0.0,0,0,fully_missing,,,,,,False
+SliceThickness,180050,Geometry,True,,1.0,3,1,insufficient,,,0.8197393986013987,0.8197393986013987,,False
+Rows,280010,Geometry,False,,1.0,1,1,invariant,,,0.8224558904109589,0.8224558904109589,,False
+Columns,280011,Geometry,False,,1.0,1,1,invariant,,,0.8224558904109589,0.8224558904109589,,False
+PixelSpacing,280030,Geometry,False,,1.0,4,3,testable,3.7480817547220795,0.15350212362484505,0.751993435483871,0.8814809615384616,0.19735987323194365,False
+ReconstructionDiameter,181100,Geometry,False,,1.0,5,3,testable,3.2801091876266355,0.19396945246974767,0.7250279454545454,0.965531,0.21821563402846614,False
+WindowCenter,281050,Geometry,False,,1.0,3,2,testable,4.569412656309169,0.03254772271514279,0.7255306666666667,0.8568079714285715,0.04882158407271419,True
+WindowWidth,281051,Geometry,False,,1.0,2,1,insufficient,,,0.8212537013888889,0.8212537013888889,,False
+TotalCollimationWidth,189307,Geometry,False,,0.5273972602739726,2,2,testable,7.081185031185015,0.007789747862079928,0.7966815405405405,0.901330375,0.014021546151743869,True
+SpiralPitchFactor,189311,Geometry,True,,0.5273972602739726,2,2,testable,7.081185031185015,0.007789747862079928,0.7966815405405405,0.901330375,0.014021546151743869,True
+TableSpeed,189309,Geometry,False,,0.5273972602739726,2,2,testable,7.081185031185015,0.007789747862079928,0.7966815405405405,0.901330375,0.014021546151743869,True
+SpacingBetweenSlices,180088,Geometry,False,substituted from SpacingBetweenSlices_derived (direct fill 5/146),1.0,4,1,insufficient,,,0.8150265323741007,0.8150265323741007,,False
+ReformattingThickness,720512,Geometry,True,,0.0,0,0,fully_missing,,,,,,False
+ManufacturerModelName,081090,Device,True,,0.0136986301369863,1,0,fully_missing,,,,,,False
+Manufacturer,080070,Device,True,,0.0136986301369863,1,0,fully_missing,,,,,,False
+BodyPartExamined,180015,Anatomy/position,True,,1.0,1,1,invariant,,,0.8224558904109589,0.8224558904109589,,False
+PatientPosition,185100,Anatomy/position,False,,1.0,1,1,invariant,,,0.8224558904109589,0.8224558904109589,,False

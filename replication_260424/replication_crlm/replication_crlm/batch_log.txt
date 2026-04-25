@@ -1,0 +1,225 @@
+==> loading manifest + model
+   197 patients
+TensorShape([None, 70, 70, 70, 1]) TensorShape([None, 70, 70, 4]) 16 Line-252
+TensorShape([None, 512]) ##1
+TensorShape([None, 512]) TensorShape([None, 512]) Line-565
+[  1/197] CRLM-CT-1001  p=0.0480  pv_hu=178.0  tumors=[5]  t=9.8s
+[  2/197] CRLM-CT-1002  p=0.0053  pv_hu=227.0  tumors=[5]  t=1.0s
+[  3/197] CRLM-CT-1003  p=0.1219  pv_hu=158.0  tumors=[5]  t=0.4s
+[  4/197] CRLM-CT-1004  p=0.9678  pv_hu=144.0  tumors=[5, 6]  t=0.4s
+[  5/197] CRLM-CT-1005  p=0.9953  pv_hu=157.0  tumors=[5]  t=1.1s
+[  6/197] CRLM-CT-1006  p=0.9694  pv_hu=145.0  tumors=[5, 6, 7, 8, 9]  t=0.4s
+[  7/197] CRLM-CT-1007  p=0.0210  pv_hu=191.0  tumors=[5]  t=0.4s
+[  8/197] CRLM-CT-1008  p=0.0515  pv_hu=186.0  tumors=[5]  t=1.1s
+[  9/197] CRLM-CT-1009  p=0.9902  pv_hu=172.0  tumors=[5, 6]  t=1.0s
+[ 10/197] CRLM-CT-1010  p=0.1273  pv_hu=148.0  tumors=[5]  t=0.4s
+[ 11/197] CRLM-CT-1011  p=0.0022  pv_hu=183.0  tumors=[5]  t=0.4s
+[ 12/197] CRLM-CT-1012  p=0.0406  pv_hu=186.0  tumors=[5]  t=1.1s
+[ 13/197] CRLM-CT-1013  p=0.9237  pv_hu=148.0  tumors=[5]  t=0.9s
+[ 14/197] CRLM-CT-1014  p=0.9918  pv_hu=126.0  tumors=[5, 6]  t=0.4s
+[ 15/197] CRLM-CT-1015  p=0.1253  pv_hu=108.0  tumors=[5]  t=0.4s
+[ 16/197] CRLM-CT-1016  p=0.0027  pv_hu=148.0  tumors=[5]  t=0.4s
+[ 17/197] CRLM-CT-1017  p=0.6200  pv_hu=160.0  tumors=[5]  t=0.9s
+[ 18/197] CRLM-CT-1018  p=0.9538  pv_hu=183.0  tumors=[5, 6, 7]  t=0.7s
+[ 19/197] CRLM-CT-1019  p=0.0337  pv_hu=186.0  tumors=[5]  t=1.0s
+[ 20/197] CRLM-CT-1020  p=0.9576  pv_hu=146.0  tumors=[5, 6, 7, 8]  t=0.3s
+[ 21/197] CRLM-CT-1021  p=0.2828  pv_hu=168.0  tumors=[5, 6]  t=0.3s
+[ 22/197] CRLM-CT-1022  p=0.9722  pv_hu=150.0  tumors=[5, 6]  t=0.4s
+[ 23/197] CRLM-CT-1023  p=0.9343  pv_hu=128.0  tumors=[5, 6]  t=0.4s
+[ 24/197] CRLM-CT-1025  p=0.0108  pv_hu=146.0  tumors=[5]  t=1.2s
+[ 25/197] CRLM-CT-1026  p=0.9861  pv_hu=163.0  tumors=[5, 6, 7, 8, 9]  t=1.3s
+[ 26/197] CRLM-CT-1027  p=0.8707  pv_hu=230.0  tumors=[5, 6, 7]  t=0.4s
+[ 27/197] CRLM-CT-1028  p=0.9675  pv_hu=207.0  tumors=[5, 6]  t=0.4s
+[ 28/197] CRLM-CT-1029  p=0.9863  pv_hu=166.0  tumors=[5, 6, 7]  t=1.0s
+[ 29/197] CRLM-CT-1030  p=0.9314  pv_hu=139.0  tumors=[5]  t=0.9s
+[ 30/197] CRLM-CT-1031  p=0.6653  pv_hu=145.0  tumors=[5, 6, 7]  t=0.4s
+[ 31/197] CRLM-CT-1032  p=0.9974  pv_hu=181.0  tumors=[5]  t=1.2s
+[ 32/197] CRLM-CT-1033  p=0.9949  pv_hu=136.0  tumors=[5]  t=0.5s
+[ 33/197] CRLM-CT-1034  p=0.7525  pv_hu=194.0  tumors=[5, 6, 7, 8, 9]  t=0.4s
+[ 34/197] CRLM-CT-1035  p=0.9594  pv_hu=125.0  tumors=[5, 6, 7, 8]  t=0.6s
+[ 35/197] CRLM-CT-1036  p=0.0033  pv_hu=139.0  tumors=[5]  t=0.3s
+[ 36/197] CRLM-CT-1037  p=0.8841  pv_hu=203.0  tumors=[5, 6, 7, 8, 9]  t=1.0s
+[ 37/197] CRLM-CT-1038  p=0.8203  pv_hu=271.0  tumors=[5, 6, 7]  t=0.4s
+[ 38/197] CRLM-CT-1039  p=0.4862  pv_hu=157.0  tumors=[5]  t=0.5s
+[ 39/197] CRLM-CT-1040  p=0.0034  pv_hu=205.0  tumors=[5]  t=0.3s
+[ 40/197] CRLM-CT-1041  p=0.0529  pv_hu=243.0  tumors=[5]  t=0.5s
+[ 41/197] CRLM-CT-1042  p=0.8759  pv_hu=188.0  tumors=[5]  t=1.0s
+[ 42/197] CRLM-CT-1043  p=0.9656  pv_hu=178.0  tumors=[5, 6]  t=1.0s
+[ 43/197] CRLM-CT-1044  p=0.9141  pv_hu=192.0  tumors=[5]  t=0.3s
+[ 44/197] CRLM-CT-1045  p=0.9381  pv_hu=164.0  tumors=[5, 6, 7]  t=1.1s
+[ 45/197] CRLM-CT-1046  p=0.8104  pv_hu=165.0  tumors=[5, 6]  t=0.4s
+[ 46/197] CRLM-CT-1047  p=0.9965  pv_hu=156.0  tumors=[5, 6, 7]  t=0.4s
+[ 47/197] CRLM-CT-1048  p=0.8759  pv_hu=154.0  tumors=[5, 6]  t=0.4s
+[ 48/197] CRLM-CT-1049  p=0.9747  pv_hu=180.0  tumors=[5, 6, 7, 8]  t=1.2s
+[ 49/197] CRLM-CT-1050  p=0.9899  pv_hu=162.0  tumors=[5, 6, 7]  t=0.9s
+[ 50/197] CRLM-CT-1051  p=0.1073  pv_hu=170.0  tumors=[5, 6]  t=1.1s
+[ 51/197] CRLM-CT-1052  p=0.9372  pv_hu=122.0  tumors=[5]  t=0.5s
+[ 52/197] CRLM-CT-1053  p=0.9709  pv_hu=180.0  tumors=[5, 6, 7]  t=1.0s
+[ 53/197] CRLM-CT-1054  p=0.9517  pv_hu=198.0  tumors=[5, 6]  t=0.4s
+[ 54/197] CRLM-CT-1055  p=0.8705  pv_hu=140.0  tumors=[5]  t=0.9s
+[ 55/197] CRLM-CT-1056  p=0.9473  pv_hu=169.0  tumors=[5, 6, 7, 8]  t=1.0s
+[ 56/197] CRLM-CT-1057  p=0.9564  pv_hu=164.0  tumors=[5, 6, 7, 8]  t=1.2s
+[ 57/197] CRLM-CT-1058  p=0.0014  pv_hu=168.0  tumors=[5]  t=0.4s
+[ 58/197] CRLM-CT-1059  p=0.9414  pv_hu=152.0  tumors=[5]  t=0.3s
+[ 59/197] CRLM-CT-1060  p=0.9248  pv_hu=212.0  tumors=[5, 6]  t=0.5s
+[ 60/197] CRLM-CT-1061  p=0.9909  pv_hu=130.0  tumors=[5, 6, 7]  t=1.3s
+[ 61/197] CRLM-CT-1062  p=0.4512  pv_hu=200.0  tumors=[5]  t=0.8s
+[ 62/197] CRLM-CT-1063  p=0.8065  pv_hu=201.0  tumors=[5, 6]  t=0.4s
+[ 63/197] CRLM-CT-1064  p=0.9943  pv_hu=143.0  tumors=[5, 6]  t=1.1s
+[ 64/197] CRLM-CT-1065  p=0.9850  pv_hu=170.0  tumors=[5, 6, 7]  t=0.9s
+[ 65/197] CRLM-CT-1066  p=0.9779  pv_hu=102.0  tumors=[5, 6]  t=0.4s
+[ 66/197] CRLM-CT-1067  p=0.7094  pv_hu=154.0  tumors=[5]  t=0.4s
+[ 67/197] CRLM-CT-1068  p=0.9839  pv_hu=156.0  tumors=[5, 6, 7, 8, 9]  t=1.4s
+[ 68/197] CRLM-CT-1069  p=0.9313  pv_hu=174.0  tumors=[5, 6, 7, 8, 9]  t=0.8s
+[ 69/197] CRLM-CT-1070  p=0.9380  pv_hu=156.0  tumors=[5, 6, 7, 8, 9]  t=1.1s
+[ 70/197] CRLM-CT-1071  p=0.9957  pv_hu=123.0  tumors=[5, 6]  t=0.7s
+[ 71/197] CRLM-CT-1072  p=0.6022  pv_hu=144.0  tumors=[5]  t=1.6s
+[ 72/197] CRLM-CT-1073  p=0.9592  pv_hu=157.0  tumors=[5, 6, 7, 8]  t=0.5s
+[ 73/197] CRLM-CT-1074  p=0.0022  pv_hu=167.0  tumors=[5]  t=0.4s
+[ 74/197] CRLM-CT-1075  p=0.0141  pv_hu=130.0  tumors=[5]  t=0.4s
+[ 75/197] CRLM-CT-1076  p=0.0027  pv_hu=203.0  tumors=[5]  t=0.4s
+[ 76/197] CRLM-CT-1077  p=0.0092  pv_hu=230.0  tumors=[5]  t=1.0s
+[ 77/197] CRLM-CT-1078  p=0.9755  pv_hu=161.0  tumors=[5, 6, 7, 8, 9]  t=1.0s
+[ 78/197] CRLM-CT-1079  p=0.9864  pv_hu=182.0  tumors=[5, 6]  t=0.6s
+[ 79/197] CRLM-CT-1080  p=0.9989  pv_hu=173.0  tumors=[5, 6, 7]  t=1.2s
+[ 80/197] CRLM-CT-1081  p=0.9974  pv_hu=157.0  tumors=[5, 6, 7, 8, 9]  t=1.2s
+[ 81/197] CRLM-CT-1082  p=0.9793  pv_hu=153.0  tumors=[5, 6, 7, 8, 9]  t=0.7s
+[ 82/197] CRLM-CT-1083  p=0.9857  pv_hu=148.0  tumors=[5, 6, 7, 8, 9]  t=1.3s
+[ 83/197] CRLM-CT-1084  p=0.8563  pv_hu=165.0  tumors=[5, 6, 7]  t=0.4s
+[ 84/197] CRLM-CT-1085  p=0.7363  pv_hu=213.0  tumors=[5, 6, 7]  t=0.3s
+[ 85/197] CRLM-CT-1086  p=0.9093  pv_hu=202.0  tumors=[5]  t=1.1s
+[ 86/197] CRLM-CT-1087  p=0.0049  pv_hu=203.0  tumors=[5]  t=0.3s
+[ 87/197] CRLM-CT-1088  p=0.8454  pv_hu=183.0  tumors=[5, 6, 7, 8, 9]  t=1.3s
+[ 88/197] CRLM-CT-1089  p=0.0865  pv_hu=163.0  tumors=[5]  t=0.4s
+[ 89/197] CRLM-CT-1090  p=0.0005  pv_hu=188.0  tumors=[5]  t=0.3s
+[ 90/197] CRLM-CT-1091  p=0.9740  pv_hu=150.0  tumors=[5, 6, 7, 8]  t=0.5s
+[ 91/197] CRLM-CT-1092  p=0.0007  pv_hu=138.0  tumors=[5]  t=0.5s
+[ 92/197] CRLM-CT-1093  p=0.6938  pv_hu=228.0  tumors=[5, 6, 7, 8]  t=1.1s
+[ 93/197] CRLM-CT-1094  p=0.8372  pv_hu=189.0  tumors=[5]  t=0.3s
+[ 94/197] CRLM-CT-1095  p=0.9672  pv_hu=124.0  tumors=[5, 6]  t=0.6s
+[ 95/197] CRLM-CT-1096  p=0.9934  pv_hu=160.0  tumors=[5, 6]  t=1.1s
+[ 96/197] CRLM-CT-1097  p=0.9878  pv_hu=155.0  tumors=[5, 6, 7, 8, 9]  t=0.4s
+[ 97/197] CRLM-CT-1098  p=0.9210  pv_hu=171.0  tumors=[5, 6, 7]  t=0.4s
+[ 98/197] CRLM-CT-1099  p=0.5539  pv_hu=158.0  tumors=[5]  t=0.4s
+[ 99/197] CRLM-CT-1100  p=0.9713  pv_hu=108.0  tumors=[5]  t=0.8s
+[100/197] CRLM-CT-1101  p=0.8644  pv_hu=224.0  tumors=[5]  t=0.4s
+[101/197] CRLM-CT-1102  p=0.9815  pv_hu=122.0  tumors=[5, 6, 7]  t=0.4s
+[102/197] CRLM-CT-1103  p=0.9946  pv_hu=166.0  tumors=[5, 6]  t=1.0s
+[103/197] CRLM-CT-1104  p=0.8987  pv_hu=218.0  tumors=[5, 6]  t=0.5s
+[104/197] CRLM-CT-1105  p=0.9442  pv_hu=193.0  tumors=[5, 6, 7, 8, 9]  t=0.4s
+[105/197] CRLM-CT-1106  p=0.9989  pv_hu=142.0  tumors=[5]  t=0.8s
+[106/197] CRLM-CT-1107  p=0.6100  pv_hu=166.0  tumors=[5]  t=1.2s
+[107/197] CRLM-CT-1108  p=0.8194  pv_hu=176.0  tumors=[5, 6]  t=0.4s
+[108/197] CRLM-CT-1109  p=0.9213  pv_hu=178.0  tumors=[5, 6]  t=0.4s
+[109/197] CRLM-CT-1110  p=0.9927  pv_hu=144.0  tumors=[5, 6]  t=0.8s
+[110/197] CRLM-CT-1111  p=0.9761  pv_hu=132.0  tumors=[5]  t=0.6s
+[111/197] CRLM-CT-1112  p=0.9545  pv_hu=174.0  tumors=[5, 6, 7, 8]  t=1.2s
+[112/197] CRLM-CT-1113  p=0.9872  pv_hu=168.0  tumors=[5, 6, 7]  t=1.1s
+[113/197] CRLM-CT-1114  p=0.9383  pv_hu=142.0  tumors=[5, 6, 7, 8, 9]  t=1.3s
+[114/197] CRLM-CT-1115  p=0.0106  pv_hu=169.0  tumors=[5]  t=0.4s
+[115/197] CRLM-CT-1116  p=0.9110  pv_hu=167.0  tumors=[5]  t=0.4s
+[116/197] CRLM-CT-1117  p=0.6944  pv_hu=156.0  tumors=[5]  t=1.2s
+[117/197] CRLM-CT-1118  p=0.9401  pv_hu=151.0  tumors=[5, 6, 7]  t=1.1s
+[118/197] CRLM-CT-1119  p=0.0006  pv_hu=161.0  tumors=[5]  t=0.3s
+[119/197] CRLM-CT-1120  p=0.9939  pv_hu=218.0  tumors=[5, 6]  t=0.4s
+[120/197] CRLM-CT-1121  p=0.9506  pv_hu=158.0  tumors=[5]  t=1.4s
+[121/197] CRLM-CT-1122  p=0.8840  pv_hu=174.0  tumors=[5, 6]  t=1.2s
+[122/197] CRLM-CT-1123  p=0.9883  pv_hu=128.0  tumors=[5, 6]  t=0.5s
+[123/197] CRLM-CT-1124  p=0.9988  pv_hu=126.0  tumors=[5, 6]  t=0.4s
+[124/197] CRLM-CT-1125  p=0.9839  pv_hu=138.0  tumors=[5, 6, 7, 8]  t=1.2s
+[125/197] CRLM-CT-1126  p=0.9703  pv_hu=158.0  tumors=[5, 6, 7, 8, 9]  t=1.2s
+[126/197] CRLM-CT-1127  p=0.9437  pv_hu=166.0  tumors=[5, 6, 7, 8]  t=0.4s
+[127/197] CRLM-CT-1128  p=0.9922  pv_hu=142.0  tumors=[5, 6]  t=1.5s
+[128/197] CRLM-CT-1129  p=0.9998  pv_hu=130.0  tumors=[5, 6, 7]  t=0.5s
+[129/197] CRLM-CT-1130  p=0.6805  pv_hu=147.0  tumors=[5]  t=0.4s
+[130/197] CRLM-CT-1131  p=0.9832  pv_hu=104.0  tumors=[5, 6, 7, 8, 9]  t=0.5s
+[131/197] CRLM-CT-1132  p=0.9875  pv_hu=167.0  tumors=[5, 6]  t=0.5s
+[132/197] CRLM-CT-1133  p=0.8293  pv_hu=187.0  tumors=[5, 6, 7, 8]  t=1.3s
+[133/197] CRLM-CT-1134  p=0.9937  pv_hu=154.0  tumors=[5, 6, 7, 8, 9]  t=0.5s
+[134/197] CRLM-CT-1135  p=0.3214  pv_hu=151.0  tumors=[5]  t=1.1s
+[135/197] CRLM-CT-1136  p=0.6613  pv_hu=171.0  tumors=[5, 6]  t=0.3s
+[136/197] CRLM-CT-1137  p=0.3737  pv_hu=164.0  tumors=[5]  t=0.7s
+[137/197] CRLM-CT-1138  p=0.9619  pv_hu=170.0  tumors=[5, 6, 7, 8, 9]  t=1.0s
+[138/197] CRLM-CT-1139  p=0.9165  pv_hu=170.0  tumors=[5, 6]  t=0.5s
+[139/197] CRLM-CT-1140  p=0.9184  pv_hu=169.0  tumors=[5, 6, 7]  t=0.3s
+[140/197] CRLM-CT-1141  p=0.0032  pv_hu=174.0  tumors=[5]  t=0.3s
+[141/197] CRLM-CT-1142  p=0.9581  pv_hu=159.0  tumors=[5, 6]  t=1.0s
+[142/197] CRLM-CT-1143  p=0.9934  pv_hu=214.0  tumors=[5, 6]  t=0.3s
+[143/197] CRLM-CT-1144  p=0.9088  pv_hu=170.0  tumors=[5, 6, 7, 8]  t=0.3s
+[144/197] CRLM-CT-1145  p=0.9112  pv_hu=200.0  tumors=[5, 6, 7, 8]  t=1.2s
+[145/197] CRLM-CT-1146  p=0.9976  pv_hu=121.0  tumors=[5]  t=0.4s
+[146/197] CRLM-CT-1147  p=0.7530  pv_hu=192.0  tumors=[5, 6, 7]  t=0.9s
+[147/197] CRLM-CT-1148  p=0.9837  pv_hu=146.0  tumors=[5, 6, 7]  t=0.7s
+[148/197] CRLM-CT-1149  p=0.3809  pv_hu=192.0  tumors=[5]  t=0.9s
+[149/197] CRLM-CT-1150  p=0.7488  pv_hu=194.0  tumors=[5, 6, 7]  t=0.4s
+[150/197] CRLM-CT-1151  p=0.6980  pv_hu=137.0  tumors=[5]  t=0.8s
+[151/197] CRLM-CT-1152  p=0.9133  pv_hu=170.0  tumors=[5, 6]  t=1.0s
+[152/197] CRLM-CT-1153  p=0.9982  pv_hu=126.0  tumors=[5, 6, 7, 8, 9]  t=1.2s
+[153/197] CRLM-CT-1154  p=0.0224  pv_hu=181.0  tumors=[5]  t=1.1s
+[154/197] CRLM-CT-1155  p=0.9768  pv_hu=204.0  tumors=[5, 6, 7, 8, 9]  t=0.5s
+[155/197] CRLM-CT-1156  p=0.7344  pv_hu=187.0  tumors=[5, 6]  t=0.4s
+[156/197] CRLM-CT-1157  p=0.1083  pv_hu=139.0  tumors=[5]  t=0.4s
+[157/197] CRLM-CT-1158  p=0.9233  pv_hu=171.0  tumors=[5, 6]  t=1.1s
+[158/197] CRLM-CT-1159  p=0.9782  pv_hu=146.0  tumors=[5, 6, 7]  t=0.4s
+[159/197] CRLM-CT-1160  p=0.8887  pv_hu=133.0  tumors=[5]  t=0.4s
+[160/197] CRLM-CT-1161  p=0.9057  pv_hu=168.0  tumors=[5, 6]  t=0.3s
+[161/197] CRLM-CT-1162  p=0.9606  pv_hu=170.0  tumors=[5, 6]  t=1.0s
+[162/197] CRLM-CT-1163  p=0.8669  pv_hu=181.0  tumors=[5, 6]  t=0.3s
+[163/197] CRLM-CT-1164  p=0.9859  pv_hu=153.0  tumors=[5, 6]  t=1.2s
+[164/197] CRLM-CT-1165  p=0.9760  pv_hu=173.0  tumors=[5, 6]  t=0.4s
+[165/197] CRLM-CT-1166  p=0.9975  pv_hu=116.0  tumors=[5, 6]  t=1.3s
+[166/197] CRLM-CT-1167  p=0.8106  pv_hu=162.0  tumors=[5]  t=1.0s
+[167/197] CRLM-CT-1168  p=0.9653  pv_hu=164.0  tumors=[5, 6, 7]  t=1.2s
+[168/197] CRLM-CT-1169  p=0.9875  pv_hu=149.0  tumors=[5, 6]  t=0.4s
+[169/197] CRLM-CT-1170  p=0.0059  pv_hu=223.0  tumors=[5]  t=1.2s
+[170/197] CRLM-CT-1171  p=0.9416  pv_hu=166.0  tumors=[5]  t=0.4s
+[171/197] CRLM-CT-1172  p=0.0063  pv_hu=168.0  tumors=[5]  t=0.4s
+[172/197] CRLM-CT-1173  p=0.9635  pv_hu=147.0  tumors=[5, 6, 7, 8, 9]  t=0.4s
+[173/197] CRLM-CT-1174  p=0.9466  pv_hu=152.0  tumors=[5, 6]  t=0.4s
+[174/197] CRLM-CT-1175  p=0.9516  pv_hu=185.0  tumors=[5, 6, 7, 8, 9]  t=1.1s
+[175/197] CRLM-CT-1176  p=0.8433  pv_hu=169.0  tumors=[5, 6, 7]  t=0.5s
+[176/197] CRLM-CT-1177  p=0.7395  pv_hu=170.0  tumors=[5, 6, 7]  t=1.1s
+[177/197] CRLM-CT-1178  p=0.9932  pv_hu=136.0  tumors=[5]  t=0.7s
+[178/197] CRLM-CT-1179  p=0.9946  pv_hu=151.0  tumors=[5, 6]  t=0.5s
+[179/197] CRLM-CT-1180  p=0.9857  pv_hu=132.0  tumors=[5, 6, 7, 8, 9]  t=0.4s
+[180/197] CRLM-CT-1181  p=0.9797  pv_hu=196.0  tumors=[5, 6]  t=1.0s
+[181/197] CRLM-CT-1182  p=0.9730  pv_hu=144.0  tumors=[5, 6]  t=0.8s
+[182/197] CRLM-CT-1183  p=0.9239  pv_hu=144.0  tumors=[5, 6]  t=1.2s
+[183/197] CRLM-CT-1184  p=0.9877  pv_hu=144.0  tumors=[5, 6, 7, 8]  t=0.4s
+[184/197] CRLM-CT-1185  p=0.2435  pv_hu=205.0  tumors=[5, 6, 7]  t=0.4s
+[185/197] CRLM-CT-1186  p=0.9714  pv_hu=156.0  tumors=[5, 6, 7, 8, 9]  t=1.2s
+[186/197] CRLM-CT-1187  p=0.9942  pv_hu=148.0  tumors=[5, 6, 7]  t=1.0s
+[187/197] CRLM-CT-1188  p=0.9893  pv_hu=154.0  tumors=[5, 6, 7]  t=1.1s
+[188/197] CRLM-CT-1189  p=0.9952  pv_hu=131.0  tumors=[5, 6]  t=0.5s
+[189/197] CRLM-CT-1190  p=0.7726  pv_hu=146.0  tumors=[5, 6, 7, 8, 9]  t=0.4s
+[190/197] CRLM-CT-1191  p=0.9776  pv_hu=170.0  tumors=[5, 6, 7]  t=0.4s
+[191/197] CRLM-CT-1192  p=0.5953  pv_hu=165.0  tumors=[5, 6, 7, 8, 9]  t=0.3s
+[192/197] CRLM-CT-1193  p=0.9957  pv_hu=134.0  tumors=[5, 6]  t=0.5s
+[193/197] CRLM-CT-1194  p=0.6576  pv_hu=177.0  tumors=[5]  t=0.4s
+[194/197] CRLM-CT-1195  p=0.9443  pv_hu=155.0  tumors=[5, 6]  t=0.4s
+[195/197] CRLM-CT-1196  p=0.9964  pv_hu=123.0  tumors=[5, 6, 7, 8]  t=1.2s
+[196/197] CRLM-CT-1197  p=0.9370  pv_hu=133.0  tumors=[5, 6]  t=0.8s
+[197/197] CRLM-CT-1198  p=0.6768  pv_hu=156.0  tumors=[5]  t=1.0s
+
+results → /home/ubuntu/hcc_workspace/replication_crlm/batch_results.csv
+=== ST3DCN specificity on CRLM (portovenous-only, pre-op) ===
+Total patients in manifest:   197
+Successfully processed:       197
+Failures:                     0
+
+Threshold for binary HCC pred: 0.8
+False positives (pred==1):    137 / 197
+True negatives  (pred==0):    60 / 197
+SPECIFICITY (pu, raw):        0.3046
+Wilson 95% CI:                (0.2445, 0.3721)
+
+Probability distribution:
+  mean   0.7521
+  median 0.9370
+  p05    0.0034
+  p25    0.6938
+  p75    0.9815
+  p95    0.9964
+
+summary → /home/ubuntu/hcc_workspace/replication_crlm/batch_summary.txt
+total wall-time: 150.2s

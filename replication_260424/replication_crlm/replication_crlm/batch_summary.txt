@@ -1,0 +1,18 @@
+=== ST3DCN specificity on CRLM (portovenous-only, pre-op) ===
+Total patients in manifest:   197
+Successfully processed:       197
+Failures:                     0
+
+Threshold for binary HCC pred: 0.8
+False positives (pred==1):    137 / 197
+True negatives  (pred==0):    60 / 197
+SPECIFICITY (pu, raw):        0.3046
+Wilson 95% CI:                (0.2445, 0.3721)
+
+Probability distribution:
+  mean   0.7521
+  median 0.9370
+  p05    0.0034
+  p25    0.6938
+  p75    0.9815
+  p95    0.9964

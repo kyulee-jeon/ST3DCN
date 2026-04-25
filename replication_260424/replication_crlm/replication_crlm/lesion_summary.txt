@@ -1,0 +1,16 @@
+=== CRLM lesion-level specificity (portovenous-only, pre-op) ===
+Patients processed:         197/197
+Total lesions:              464
+lesions / patient (mean):   2.36
+
+Threshold for binary HCC pred: 0.8
+False positives (pred==1):  96 / 464
+True negatives  (pred==0):  368 / 464
+SPECIFICITY (lesion, raw):  0.7931
+Wilson 95% CI:              (0.7539, 0.8275)
+
+Probability distribution (lesion):
+  mean   0.3202
+  median 0.0711
+  p05    0.0016
+  p95    0.9865

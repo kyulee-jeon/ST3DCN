@@ -1,0 +1,18 @@
+dataset: hcc_tace_seg
+label: HCC-TACE-Seg (HCC+)
+ground_truth_positive: true          # all patients are HCC; sensitivity primary
+dicom_root: /home/ubuntu/hcc_data/dicom
+manifest_csv: /home/ubuntu/hcc_data/series_manifest.csv
+nbia_digest_xlsx: /home/ubuntu/hcc_data/HCC-TACE-Seg_v1_202201-nbia-digest.xlsx
+clinical_xlsx: /home/ubuntu/hcc_data/HCC-TACE-Seg_clinical_data-V2.xlsx
+
+# Segment layout (from Morshid 2019)
+tumor_segments: [2]                 # Mass
+aorta_segment: 4                     # used for portal-acq HU-based picking
+portal_vein_segment: null            # not explicitly annotated
+
+# Multi-study cohort: pick earliest with-SEG study (pre-TACE baseline)
+has_baseline_study: true
+
+# Triphasic CT series bundled — pick portal AcqNum via aorta cue
+multi_acq_per_series: true

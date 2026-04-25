@@ -1,0 +1,19 @@
+dataset: crlm
+label: CRLM (HCC−)
+ground_truth_positive: false         # all patients are colorectal liver metastasis, not HCC; specificity primary
+dicom_root: /home/ubuntu/non-hcc_data/Colorectal-Liver-Metastases
+manifest_json: /home/ubuntu/non-hcc_data/Colorectal-Liver-Metastases/series_manifest.json
+nbia_digest_xlsx: null               # not needed; direct fill ≥99% for Manufacturer/ModelName
+clinical_xlsx: null
+
+# Segment layout (Simpson 2024)
+# 1=Liver 2=Liver Remnant 3=Hepatic Vein 4=Portal Vein 5..9=Tumor_1..Tumor_5
+tumor_segments: [5, 6, 7, 8, 9]
+aorta_segment: null
+portal_vein_segment: 4               # sanity: median HU > 120 confirms portal venous phase
+
+# Single-study cohort: preoperative only (TCIA collection statement)
+has_baseline_study: false
+
+# Each CT series = 1 AcqNum = 1 phase
+multi_acq_per_series: false
